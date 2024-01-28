@@ -1,0 +1,59 @@
+p{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Arial';
+    color: white;
+}
+
+body{
+    background-image: url('https://sec.tamu.edu/images/img-header/slider-img-1.jpg');
+}
+
+form
+{
+    color: black;
+    width: 400px;
+    padding: 25px;
+    margin: 50px auto;
+}
+
+
+
+#createButton {
+    width: 103%;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+#first {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    
+}
+#last {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+  
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+}
+
+a{
+    color:#fbfb8d
+}
+
+#createButton:hover {
+    background-color: #765d59;
+}
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel = "stylesheet" href = "css/signin.css">
+    <link rel = "icon" type="image/x-icon" href ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvmmoWmKW7xHwajJ75GR5mnBM_lZ5CssV6dA&usqp=CAU">
+    <script src="index.js"></script>
+    <title>Aggie Explorer</title>
+
+</head>
+
+<body>
+
+    <!-- <nav>
+        <div class="heading">
+  
+          <h4>Navigation Bar</h4>
+  
+        </div>
+  
+        <ul class="nav-links">
+  
+          <li><a class="active" href="Home.html">Home</a></li>
+  
+          <li><a href="Clubs.html">Clubs</a></li>
+  
+          <li><a href="TAMUEvents.html">TAMUEvents</a></li>
+  
+          <nav>
+
+    </nav> -->
+    
+    <p><b>AGGIE XPLORER</b></p>
+
+    <form id="myForm">
+
+        <label for= "username"></label>
+        <br>
+        <input class= "field" type ="email" id= "username" required placeholder="  Email" />
+        <br>
+
+        <label for= "password"></label>
+        <br>
+        <input class= "field" type ="password" id= "password" required placeholder="  Password" />
+        <br> 
+
+
+        <!-- <input onsubmit="submitForm()" id= "signButton" type = "submit"><b>Sign In</b></input> -->
+        <button type="button" id= "signButton" onclick="submitForm()">Sign In</button>
+        
+       
+    </form>
+
+    <h2><b>Don't have an account?<a href = "SignUp.html">Sign Up</a></b></h2>
+    
+    <script>
+        function submitForm() {
+          const form = document.getElementById('myForm');
+          form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            // Perform validation and processing here
+          });
+          window.location = "Home.html";
+        }
+      </script>
+    
+</body>
