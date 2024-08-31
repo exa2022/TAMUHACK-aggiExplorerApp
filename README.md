@@ -1,2 +1,16 @@
 # TAMUHACK/AggiExplorerApp
-This is an Aggie Explorer App that allows users to see upcoming university events, clubs, and other information. Some of the technologies that we used included html, css, and javascript. 
+This is an Aggie Explorer App that allows TAMU Students and Faculty members to view upcoming university events, clubs, and other information. Some key functionalities part of this web application include Login/Sign Up authentication, top Navigation Bar, external images, as well as a Search Bar GUI.
+
+Here is a link to our Hackathon presentation:
+
+
+
+Front-End Technologies Used:
+1. HTML
+2. CSS
+3. JavaScript
+4. ReactJS
+
+Back-End Technologies Used:
+1. Django
+
